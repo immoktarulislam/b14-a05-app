@@ -151,33 +151,7 @@ const Footer = () => {
             </div>
 
             {/* Bottom Section */}
-            <div className="border-t border-gray-100">
-                <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-0 py-7 flex flex-col sm:flex-row items-center justify-between gap-4">
-
-                    {/* Copyright */}
-                    <p className="text-sm text-gray-400">
-                        © 2026 Dev Stack. All rights reserved.
-                    </p>
-
-                    {/* Privacy & Terms */}
-                    <div className="flex items-center gap-6">
-                        <a
-                            href="#"
-                            className="text-sm text-gray-400 hover:text-gray-700 transition-colors"
-                        >
-                            Privacy
-                        </a>
-
-                        <a
-                            href="#"
-                            className="text-sm text-gray-400 hover:text-gray-700 transition-colors"
-                        >
-                            Terms
-                        </a>
-                    </div>
-
-                </div>
-            </div>
+            
         </footer>
     );
 };
