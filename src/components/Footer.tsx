@@ -1,113 +1,146 @@
 const Footer = () => {
     return (
         <footer className="bg-white">
-            <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
+            {/* Main Footer */}
+            <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-0 py-14">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
 
-                {/* Main Footer */}
-                <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
-
-                    {/* Brand */}
-                    <div className="lg:col-span-2">
-                        <div className="flex items-center gap-3">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 text-sm font-bold text-white">
-                                DS
+                    {/* 1st Div - Brand */}
+                    <div>
+                        <div className="flex items-center gap-2 mb-5">
+                            <div className="w-8 h-8 rounded-lg bg-purple-600 flex items-center justify-center">
+                                <span className="text-white text-sm font-semibold">
+                                    DS
+                                </span>
                             </div>
 
-                            <h2 className="text-xl font-bold">
+                            <h2 className="text-xl font-semibold text-gray-800">
                                 Dev <span className="text-pink-500">Stack</span>
                             </h2>
                         </div>
 
-                        <p className="mt-5 max-w-md text-sm leading-6 text-gray-400">
+                        <p className="text-gray-400 text-sm leading-6 max-w-sm">
                             Curated tools, technologies, and resources for developers
                             building modern software.
                         </p>
 
-                        {/* Social Links */}
-                        <div className="mt-7 flex gap-7 text-sm font-medium text-gray-600">
-                            <a href="#" className="transition hover:text-purple-500">
+                        <div className="flex gap-6 mt-7">
+                            <a
+                                href="#"
+                                className="text-gray-700 text-sm font-medium hover:text-purple-600"
+                            >
                                 GitHub
                             </a>
 
-                            <a href="#" className="transition hover:text-purple-500">
+                            <a
+                                href="#"
+                                className="text-gray-700 text-sm font-medium hover:text-purple-600"
+                            >
                                 Twitter
                             </a>
 
-                            <a href="#" className="transition hover:text-purple-500">
+                            <a
+                                href="#"
+                                className="text-gray-700 text-sm font-medium hover:text-purple-600"
+                            >
                                 LinkedIn
                             </a>
                         </div>
                     </div>
 
-                    {/* Product */}
+                    {/* 2nd Div - Product */}
                     <div>
-                        <h3 className="text-sm font-bold uppercase tracking-wide text-gray-900">
+                        <h3 className="text-sm font-semibold text-gray-800 uppercase mb-6">
                             Product
                         </h3>
 
-                        <ul className="mt-6 space-y-4 text-sm text-gray-400">
+                        <ul className="space-y-4">
                             <li>
-                                <a href="#" className="hover:text-gray-700">
+                                <a
+                                    href="#"
+                                    className="text-sm text-gray-400 hover:text-gray-700"
+                                >
                                     Home
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-gray-700">
+                                <a
+                                    href="#"
+                                    className="text-sm text-gray-400 hover:text-gray-700"
+                                >
                                     Technologies
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-gray-700">
+                                <a
+                                    href="#"
+                                    className="text-sm text-gray-400 hover:text-gray-700"
+                                >
                                     Projects
                                 </a>
                             </li>
                         </ul>
                     </div>
 
-                    {/* Company */}
+                    {/* 3rd Div - Company */}
                     <div>
-                        <h3 className="text-sm font-bold uppercase tracking-wide text-gray-900">
+                        <h3 className="text-sm font-semibold text-gray-800 uppercase mb-6">
                             Company
                         </h3>
 
-                        <ul className="mt-6 space-y-4 text-sm text-gray-400">
+                        <ul className="space-y-4">
                             <li>
-                                <a href="#" className="hover:text-gray-700">
+                                <a
+                                    href="#"
+                                    className="text-sm text-gray-400 hover:text-gray-700"
+                                >
                                     About
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-gray-700">
+                                <a
+                                    href="#"
+                                    className="text-sm text-gray-400 hover:text-gray-700"
+                                >
                                     Contact
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-gray-700">
+                                <a
+                                    href="#"
+                                    className="text-sm text-gray-400 hover:text-gray-700"
+                                >
                                     Careers
                                 </a>
                             </li>
                         </ul>
                     </div>
 
-                    {/* Legal */}
+                    {/* 4th Div - Legal */}
                     <div>
-                        <h3 className="text-sm font-bold uppercase tracking-wide text-gray-900">
+                        <h3 className="text-sm font-semibold text-gray-800 uppercase mb-6">
                             Legal
                         </h3>
 
-                        <ul className="mt-6 space-y-4 text-sm text-gray-400">
+                        <ul className="space-y-4">
                             <li>
-                                <a href="#" className="hover:text-gray-700">
+                                <a
+                                    href="#"
+                                    className="text-sm text-gray-400 hover:text-gray-700"
+                                >
                                     Privacy Policy
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#" className="hover:text-gray-700">
+                                <a
+                                    href="#"
+                                    className="text-sm text-gray-400 hover:text-gray-700"
+                                >
                                     Terms of Service
                                 </a>
                             </li>
@@ -115,22 +148,35 @@ const Footer = () => {
                     </div>
 
                 </div>
+            </div>
 
-                {/* Bottom Border */}
-                <div className="mt-16 border-t border-gray-100 pt-8">
-                    <div className="flex flex-col gap-4 text-sm text-gray-400 sm:flex-row sm:items-center sm:justify-between">
+            {/* Bottom Section */}
+            <div className="border-t border-gray-100">
+                <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-0 py-7 flex flex-col sm:flex-row items-center justify-between gap-4">
 
-                        <p>
-                            © 2026 Dev Stack. All rights reserved.
-                        </p>
+                    {/* Copyright */}
+                    <p className="text-sm text-gray-400">
+                        © 2026 Dev Stack. All rights reserved.
+                    </p>
 
-                        <a href="#" className="hover:text-gray-700">
+                    {/* Privacy & Terms */}
+                    <div className="flex items-center gap-6">
+                        <a
+                            href="#"
+                            className="text-sm text-gray-400 hover:text-gray-700 transition-colors"
+                        >
                             Privacy
                         </a>
 
+                        <a
+                            href="#"
+                            className="text-sm text-gray-400 hover:text-gray-700 transition-colors"
+                        >
+                            Terms
+                        </a>
                     </div>
-                </div>
 
+                </div>
             </div>
         </footer>
     );
