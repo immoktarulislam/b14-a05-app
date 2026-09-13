@@ -85,7 +85,41 @@ const Footer = () => {
                     </div>
 
                     {/* 3rd Div - Company */}
-                    
+                    <div>
+                        <h3 className="text-sm font-semibold text-gray-800 uppercase mb-6">
+                            Company
+                        </h3>
+
+                        <ul className="space-y-4">
+                            <li>
+                                <a
+                                    href="#"
+                                    className="text-sm text-gray-400 hover:text-gray-700"
+                                >
+                                    About
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    className="text-sm text-gray-400 hover:text-gray-700"
+                                >
+                                    Contact
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    href="#"
+                                    className="text-sm text-gray-400 hover:text-gray-700"
+                                >
+                                    Careers
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
                     {/* 4th Div - Legal */}
                     <div>
                         <h3 className="text-sm font-semibold text-gray-800 uppercase mb-6">
